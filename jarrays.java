@@ -55,6 +55,30 @@ class dice{
   }
 }
 
+class for_statement{
+  public static void main(String[] args){
+    int bucky[]={2,3,4,5,6,7,9};
+    int total = 0;
 
+    for(int x: bucky){
+      total+=x;
+    }
+    System.out.println(total);
+  }
+}
+
+class ar_met{
+  public static void main(String[] args){
+    int bucky[] = {1,2,3,4,5,6};
+    change(bucky);
+
+    for(int y:bucky)
+      System.out.println(y);
+  }
+  public static void change(int x[]){
+    for(int counter=0;counter<x.length;counter++)
+      x[counter]+=5;
+  }
+}
 
 
